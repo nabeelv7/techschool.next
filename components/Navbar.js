@@ -17,7 +17,7 @@ export default function Navbar() {
 						src={favicon}
 						width={30}
 						height={20}
-						alt="Logo of the website"
+						alt="Logo of the techschool website"
 					/>
 					<Link href="/">techschool</Link>
 				</span>
