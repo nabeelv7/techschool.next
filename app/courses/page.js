@@ -1,0 +1,8 @@
+export default function CoursesPage() {
+	return (
+		<>
+			<h1>Welcome</h1>
+			<p>This is a paragraph.</p>
+		</>
+	);
+}
