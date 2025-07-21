@@ -28,13 +28,13 @@ export default function Navbar() {
 					</Link>
 					<p>/</p>
 					<Link className="hover:underline" href="/bootcamps">
-						Bootcamps
+						Free technology education for everyone Bootcamps
 					</Link>
 				</span>
 
 				{/*mobile icons*/}
 				<span
-					className="text-white"
+					className="text-white md:hidden"
 					onClick={() => setIsOpen((prev) => !prev)}
 				>
 					{isOpen ? (
