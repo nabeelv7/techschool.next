@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SectionHero() {
 	return (
 		<main className="py-30">
@@ -11,9 +13,12 @@ export default function SectionHero() {
 				<p className="md:text-xl text-md opacity-80">
 					Go from zero to your first job without any financial loss
 				</p>
-				<button className="bg-primary hover:opacity-90 text-primary-content w-fit py-3 px-5 rounded-md text-xl">
+				<Link
+					href="/courses"
+					className="bg-primary hover:opacity-90 text-primary-content w-fit py-3 px-5 rounded-md text-xl"
+				>
 					Explore Courses
-				</button>
+				</Link>
 			</div>
 		</main>
 	);

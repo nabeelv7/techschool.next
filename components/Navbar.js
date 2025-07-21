@@ -19,7 +19,7 @@ export default function Navbar() {
 						height={20}
 						alt="Logo of the website"
 					/>
-					<h1>techschool</h1>
+					<Link href="/">techschool</Link>
 				</span>
 				{/*desktop menu*/}
 				<span className="gap-2 md:flex hidden">
@@ -28,7 +28,7 @@ export default function Navbar() {
 					</Link>
 					<p>/</p>
 					<Link className="hover:underline" href="/bootcamps">
-						Free technology education for everyone Bootcamps
+						Bootcamps
 					</Link>
 				</span>
 
